@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    min-width: 380px;
+    width: 100%;
+    height: 100px;
+    font-size: 1.6rem;
+    top: 0;
+    background-color: #9BC4CB;
+}
+.header-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo > h1{
+    display: flex;
+    margin: 0;
+}
+.menu{
+    width: 100%;
+    display:inline-flex;
+    justify-content: center;
+}
+nav{
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+}
+nav > ul > li{
+    display: inline-block;
+    list-style: none;
+}
+.nav-link{
+    font-size: 2rem;
+    padding: 0 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    min-width: 380px;
+}
+#presentation{
+    background-color: #5F634F;
+    height: 70vh;
+    display: flex;
+    text-align: center;
+    font-size: 1.6rem;  
+    color: antiquewhite;
+}
+.main-logo{
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    border-radius: 3px;
+}
+#presentation > p{
+    font-weight: bold; 
+}
+
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #5F758E;
+    align-items: center;
+}
+.producto{
+    width: 200px;
+    height: 200px;
+    margin: 10px 0;
+}
+.salchipapas,
+.hamburguesas,
+.otros{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    border: 1px dotted black;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.producto figure{
+    width: 100%;
+}
+.producto figure > figcaption{
+    font-size: 1.6rem;
+    font-style: oblique;
+    font-weight: bold;
+}
+.producto img{
+    display: block;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+}
+footer {
+    width: 100%;
+    min-width: 380px;
+    height: 40px;
+    background-color: #ffcd00;
+    border: 3px solid #372626;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top: 0px;
+    padding-top: 5px;
+}
+#contact{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 1.6rem;
+}
+.social-network{
+    float: right;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.social-network li{
+    list-style: none;
+    display: inline-block;
+}
+.social-network li > a{
+    display: inline-block;
+    justify-content: space-around;
+    margin: 0 20px;
+    font-style: oblique;
+}
